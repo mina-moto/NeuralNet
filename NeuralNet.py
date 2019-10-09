@@ -34,5 +34,5 @@ class NeuralNet(Chain):
         # loss=Variable(np.array(loss))
         return loss
     # Accuracy
-    def acc(self,t):
+    def accuracy(self,t):
         return F.accuracy(self.output_data,t)
